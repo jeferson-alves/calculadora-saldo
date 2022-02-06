@@ -35,26 +35,30 @@ public class Extratos {
         try {
             FileWriter arq = new FileWriter(file);
             PrintWriter gravarArq = new PrintWriter(arq);
+
+            
             gravarArq.printf("Extrato de "+conta+"\n\n");
-            gravarArq.printf("Operador \t");
+
             gravarArq.printf("Data \t\t\t\t");
             gravarArq.printf("Valor \t\t");
-            gravarArq.printf("Tipo \t\n\n");
+            gravarArq.printf("Tipo \t");
+            gravarArq.printf("\tOperador \n\n");
 
             for (OperacaoBancaria item : trasacoes) {
-                gravarArq.printf(item.getOperador()+"\t");
                 gravarArq.printf(item.getDataHoraOperacao()+"\t");
+                gravarArq.printf("-%.2f\t\t", item.getValor());
                 if (item.getTipo().equals("SAQUE")) {
                     saldo = saldo - item.getValor();
-                    gravarArq.printf("-%.2f\t\t", item.getValor());
+                    gravarArq.printf(item.getTipo() + "\t\t");
                 }
                 if (item.getTipo().equals("DEPOSITO")) {
                     saldo = saldo + item.getValor();
-                    gravarArq.printf("+%.2f\t\t", item.getValor());
+                    gravarArq.printf(item.getTipo() + "\t");;
                 }
-                gravarArq.printf(item.getTipo() + "\t\n");
+
+                gravarArq.printf(item.getOperador()+"\t\n");
             }
-            gravarArq.printf("\nSaldo: .....................................\t");
+            gravarArq.printf("\nSaldo: .......................\t");
             gravarArq.printf(Double.toString(saldo));
             arq.close();
         } catch(Exception e) {

@@ -26,17 +26,21 @@ public class ReadFile {
             Scanner scan;
             String line;
             OperacaoBancaria operacao;
+            ContaBancaria contaBancaria;
             Date dateLine;
             switch (this.extension.toLowerCase()) {
                 case "csv":
                     file = new File(pathName);
                     scan = new Scanner(file);
                     SimpleDateFormat formatterDate =new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+                    line = scan.nextLine();
                     while (scan.hasNextLine()){
                         line = scan.nextLine();
-                        String[] parts = line.split(";");
-                        dateLine=formatterDate.parse(parts[3]);
-                        operacao = new OperacaoBancaria(parts[0],parts[1],Double.parseDouble(parts[2]), dateLine, parts[4]);
+                        String[] parts = line.split(",");
+                        dateLine=formatterDate.parse(parts[0].replace("T", " "));
+                        contaBancaria = new ContaBancaria(parts[1], parts[2], parts[3], parts[4]);
+//                        operacao = new OperacaoBancaria(parts[0],parts[1],Double.parseDouble(parts[2]), dateLine, parts[4]);
+                        operacao = new OperacaoBancaria(parts[5], parts[6], Double.parseDouble(parts[7]), dateLine, contaBancaria);
 //                        System.out.println(operacao);
                         data.put(operacao);
                     };

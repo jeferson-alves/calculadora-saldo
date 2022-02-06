@@ -1,0 +1,31 @@
+Extrato de bcec5aac-5da2-4277-bf96-466e99ae983c
+
+Data 				Valor 		Tipo 		Operador 
+
+Sat Jul 14 11:20:27 BRT 8	-280.00		DEPOSITO	Eduarda	
+Sun Jul 14 11:24:42 BRT 9	-460.00		DEPOSITO	Miguel	
+Sun Jul 14 12:24:42 BRT 9	-480.00		DEPOSITO	Victor	
+Sun Jul 14 12:24:42 BRT 9	-40.00		DEPOSITO	Brenda	
+Sun Jul 14 15:24:42 BRT 9	-420.00		DEPOSITO	Bryan	
+Thu Jul 14 14:36:58 BRT 12	-40.00		SAQUE		Brenda	
+Thu Jul 14 15:36:58 BRT 12	-80.00		DEPOSITO	Maitê	
+Thu Jul 14 15:36:58 BRT 12	-460.00		DEPOSITO	Laura	
+Thu Jul 14 15:36:58 BRT 12	-80.00		DEPOSITO	Maitê	
+Fri Jul 14 12:18:40 BRT 13	-260.00		SAQUE		Victor	
+Fri Jul 14 14:18:40 BRT 13	-240.00		DEPOSITO	Ângelo	
+Sat Jul 14 12:43:47 BRT 25	-60.00		DEPOSITO	Miguel	
+Sat Jul 14 13:12:24 BRT 25	-520.00		DEPOSITO	Victor	
+Sat Jul 14 14:43:47 BRT 25	-560.00		SAQUE		Leonardo	
+Mon Jul 15 13:37:07 BRT 26	-100.00		DEPOSITO	Juliano	
+Mon Jul 15 14:37:07 BRT 26	-580.00		DEPOSITO	Francisco	
+Mon Jul 15 14:42:37 BRT 26	-420.00		DEPOSITO	Felipe	
+Wed Jul 14 12:32:28 BRT 28	-580.00		SAQUE		Lucas	
+Sun Jul 15 12:53:20 BRT 31	-540.00		SAQUE		Flôr	
+Tue Jul 14 11:34:24 BRT 33	-380.00		SAQUE		Emanuel	
+Thu Jul 15 12:56:11 BRT 34	-320.00		SAQUE		Leonardo	
+Thu Jul 15 13:56:11 BRT 34	-500.00		DEPOSITO	Ângelo	
+Thu Jul 15 13:56:11 BRT 34	-580.00		SAQUE		Frederico	
+Thu Jul 15 13:56:11 BRT 34	-500.00		DEPOSITO	Ângelo	
+Thu Jul 15 15:56:11 BRT 34	-600.00		DEPOSITO	Luiza	
+
+Saldo: .......................	2560.0

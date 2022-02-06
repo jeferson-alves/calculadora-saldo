@@ -1,0 +1,23 @@
+Extrato de 09953f2d-d674-4f8e-bfe0-c17fdd6cb920
+
+Data 				Valor 		Tipo 		Operador 
+
+Sun Jul 14 11:24:42 BRT 9	-100.00		DEPOSITO	Felipe	
+Sun Jul 14 13:24:42 BRT 9	-80.00		SAQUE		Bryan	
+Thu Jul 14 15:36:58 BRT 12	-20.00		SAQUE		Eduarda	
+Thu Jul 14 15:55:53 BRT 12	-260.00		DEPOSITO	Larissa	
+Fri Jul 14 13:18:40 BRT 13	-360.00		DEPOSITO	Miguel	
+Wed Jul 15 11:30:28 BRT 22	-100.00		DEPOSITO	Larissa	
+Wed Jul 15 14:30:28 BRT 22	-280.00		SAQUE		João	
+Sat Jul 14 15:12:24 BRT 25	-300.00		SAQUE		Larissa	
+Sat Jul 14 15:12:24 BRT 25	-220.00		SAQUE		Lucas	
+Mon Jul 15 14:37:07 BRT 26	-20.00		DEPOSITO	Clarissa	
+Wed Jul 14 11:32:28 BRT 28	-160.00		DEPOSITO	Helena	
+Wed Jul 14 12:32:28 BRT 28	-80.00		DEPOSITO	Catarina	
+Sat Jul 15 12:22:43 BRT 30	-100.00		DEPOSITO	Ingrid	
+Sat Jul 15 14:22:43 BRT 30	-160.00		DEPOSITO	Giovanna	
+Sun Jul 15 12:53:20 BRT 31	-60.00		DEPOSITO	Felipe	
+Sun Jul 15 15:53:20 BRT 31	-520.00		DEPOSITO	Luis	
+Tue Jul 14 13:34:24 BRT 33	-160.00		SAQUE		Ezequiel	
+
+Saldo: .......................	860.0

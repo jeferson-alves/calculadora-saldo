@@ -1,0 +1,36 @@
+Extrato de d4781ab0-5137-4fa9-9c40-3fe233eee508
+
+Data 				Valor 		Tipo 		Operador 
+
+Sat Jul 14 11:20:27 BRT 8	-300.00		DEPOSITO	Laura	
+Sat Jul 14 15:20:27 BRT 8	-80.00		SAQUE		Larissa	
+Sat Jul 14 15:20:27 BRT 8	-440.00		DEPOSITO	Clarissa	
+Sun Jul 14 12:24:42 BRT 9	-400.00		DEPOSITO	João	
+Sun Jul 14 15:24:42 BRT 9	-320.00		DEPOSITO	Emanuel	
+Thu Jul 14 15:55:53 BRT 12	-20.00		DEPOSITO	Jade	
+Fri Jul 14 13:18:40 BRT 13	-60.00		SAQUE		João	
+Fri Jul 14 14:18:40 BRT 13	-500.00		SAQUE		Lorenzo	
+Wed Jul 15 13:30:28 BRT 22	-20.00		DEPOSITO	Larissa	
+Wed Jul 15 13:30:28 BRT 22	-500.00		DEPOSITO	Ezequiel	
+Wed Jul 15 13:30:28 BRT 22	-20.00		DEPOSITO	Larissa	
+Wed Jul 15 15:30:28 BRT 22	-280.00		DEPOSITO	Ezequiel	
+Sat Jul 14 13:43:47 BRT 25	-40.00		DEPOSITO	Felipe	
+Sat Jul 14 14:12:24 BRT 25	-140.00		DEPOSITO	Giovanna	
+Sat Jul 14 15:43:47 BRT 25	-80.00		DEPOSITO	Ângelo	
+Sat Jul 14 15:43:47 BRT 25	-560.00		DEPOSITO	Eduarda	
+Sat Jul 14 15:43:47 BRT 25	-80.00		DEPOSITO	Ângelo	
+Sat Jul 14 15:43:47 BRT 25	-80.00		DEPOSITO	Rebeca	
+Sat Jul 14 15:43:47 BRT 25	-80.00		DEPOSITO	Ângelo	
+Mon Jul 15 12:37:07 BRT 26	-20.00		DEPOSITO	Flôr	
+Mon Jul 15 12:42:37 BRT 26	-540.00		DEPOSITO	Luiza	
+Mon Jul 15 15:37:07 BRT 26	-140.00		SAQUE		Catarina	
+Wed Jul 14 12:32:28 BRT 28	-60.00		DEPOSITO	Ezequiel	
+Wed Jul 14 14:32:28 BRT 28	-200.00		DEPOSITO	Victor	
+Sun Jul 15 12:53:20 BRT 31	-100.00		DEPOSITO	Giovanna	
+Sun Jul 15 13:53:20 BRT 31	-60.00		SAQUE		Emanuel	
+Sun Jul 15 13:53:20 BRT 31	-600.00		DEPOSITO	Catarina	
+Sun Jul 15 14:53:20 BRT 31	-340.00		DEPOSITO	David	
+Sun Jul 15 15:53:20 BRT 31	-60.00		SAQUE		Luiza	
+Thu Jul 15 14:56:11 BRT 34	-80.00		DEPOSITO	Ezequiel	
+
+Saldo: .......................	4400.0

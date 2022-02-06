@@ -17,6 +17,7 @@ public class OperacaoBancaria {
     private Date dataHoraOperacao;
 //    private String dataHoraOperacao; //tipo string para teste
 //    private ContaBancaria contaBancaria;
-    private String contaBancaria; //tipo string para teste
+//    private String contaBancaria; //tipo string para teste
+    private ContaBancaria contaBancaria;
 
 }

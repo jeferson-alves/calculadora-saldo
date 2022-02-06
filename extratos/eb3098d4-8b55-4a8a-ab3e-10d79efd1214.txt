@@ -1,0 +1,29 @@
+Extrato de eb3098d4-8b55-4a8a-ab3e-10d79efd1214
+
+Data 				Valor 		Tipo 		Operador 
+
+Sat Jul 14 12:20:27 BRT 8	-80.00		DEPOSITO	Yuri	
+Sun Jul 14 12:24:42 BRT 9	-40.00		DEPOSITO	Murilo	
+Sun Jul 14 15:24:42 BRT 9	-420.00		DEPOSITO	Bryan	
+Sun Jul 14 15:24:42 BRT 9	-20.00		DEPOSITO	Emanuel	
+Sun Jul 14 15:24:42 BRT 9	-420.00		DEPOSITO	Bryan	
+Thu Jul 14 13:55:53 BRT 12	-100.00		SAQUE		Francisco	
+Fri Jul 14 13:18:40 BRT 13	-40.00		DEPOSITO	Victor	
+Wed Jul 15 14:30:28 BRT 22	-300.00		DEPOSITO	Larissa	
+Sat Jul 14 12:43:47 BRT 25	-20.00		DEPOSITO	Débora	
+Sat Jul 14 13:43:47 BRT 25	-600.00		SAQUE		Ingrid	
+Sat Jul 14 14:43:47 BRT 25	-100.00		DEPOSITO	Bryan	
+Sat Jul 14 15:12:24 BRT 25	-360.00		SAQUE		Ezequiel	
+Mon Jul 15 11:37:07 BRT 26	-380.00		DEPOSITO	Milene	
+Mon Jul 15 14:42:37 BRT 26	-440.00		DEPOSITO	Lorenzo	
+Sat Jul 15 11:22:43 BRT 30	-400.00		DEPOSITO	Murilo	
+Sat Jul 15 11:22:43 BRT 30	-220.00		SAQUE		Catarina	
+Sat Jul 15 13:22:43 BRT 30	-280.00		DEPOSITO	Francisco	
+Sun Jul 15 14:53:20 BRT 31	-20.00		DEPOSITO	Clarissa	
+Sun Jul 15 14:53:20 BRT 31	-60.00		SAQUE		Murilo	
+Tue Jul 14 11:34:24 BRT 33	-560.00		DEPOSITO	Brenda	
+Tue Jul 14 14:34:24 BRT 33	-60.00		SAQUE		Theo	
+Thu Jul 15 11:56:11 BRT 34	-180.00		SAQUE		David	
+Thu Jul 15 13:56:11 BRT 34	-240.00		SAQUE		Antônio	
+
+Saldo: .......................	1700.0

@@ -15,10 +15,10 @@ import java.util.Set;
 
 public class DataOperations {
     Map<String, ArrayList<OperacaoBancaria>> map = new HashMap<>();
-    
+
     public void put(OperacaoBancaria operacao) {
         ArrayList<OperacaoBancaria> operationsList = new ArrayList<>();
-        String idConta = operacao.getContaBancaria();
+        String idConta = operacao.getContaBancaria().getId();
         ArrayList<OperacaoBancaria> contaOperations = map.get(idConta);
         if (contaOperations == null) {
             operationsList.add(operacao);

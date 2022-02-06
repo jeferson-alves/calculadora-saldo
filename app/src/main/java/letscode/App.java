@@ -15,7 +15,7 @@ public class App {
 //
 //        System.out.println(jeff.getId());
 
-        ReadFile arquivo = new ReadFile("C:\\Users\\Notebook-2\\Desktop\\projeto_estrutura_dados", "testeFile", "csv");
+        ReadFile arquivo = new ReadFile("C:\\Users\\Notebook-2\\Desktop\\projeto_estrutura_dados", "operacoes", "csv");
         DataOperations dados = arquivo.openFile();
 
         Extratos extratos = new Extratos(dados);
