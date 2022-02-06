@@ -2,10 +2,10 @@ Extrato de conta1
 
 Operador 	Data 				Valor 		Tipo 	
 
-operador1	Sat Feb 05 15:30:00 BRT 2022	-10.00		SAQUE	
-operador1	Sat Feb 05 15:30:00 BRT 2022	-20.00		SAQUE	
-operador1	Sun Feb 06 15:30:00 BRT 2022	-25.00		SAQUE	
 operador1	Thu Feb 03 15:30:00 BRT 2022	+100.00		DEPOSITO	
+operador1	Sat Feb 05 15:30:00 BRT 2022	-20.00		SAQUE	
+operador1	Sat Feb 05 15:30:00 BRT 2022	-10.00		SAQUE	
+operador1	Sun Feb 06 15:30:00 BRT 2022	-25.00		SAQUE	
 operador1	Mon Feb 07 15:30:00 BRT 2022	+5.00		DEPOSITO	
 
 Saldo: .....................................	50.0

@@ -9,18 +9,19 @@ import java.io.IOException;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
-
 @AllArgsConstructor
 public class Extratos {
     DataOperations dados;
 
 
     public void fazerExtratos() {
-        Set<String> contas = dados.keys();
-        System.out.println(contas);
-        // talvez tenha que transformar o set para array
-
-        criarExtrato("conta1");
+        Set<String> contasSet = dados.keys();
+        System.out.println(contasSet);
+        String[] contasArray = new String[contasSet.size()];
+        contasSet.toArray(contasArray);
+        for(int i=0; i<contasArray.length; i++){
+            criarExtrato(contasArray[i]);
+        }
     }
 
     public void criarExtrato(String conta) {
@@ -43,7 +44,6 @@ public class Extratos {
             for (OperacaoBancaria item : trasacoes) {
                 gravarArq.printf(item.getOperador()+"\t");
                 gravarArq.printf(item.getDataHoraOperacao()+"\t");
-//                gravarArq.printf(item.getValor()+"\t");
                 if (item.getTipo().equals("SAQUE")) {
                     saldo = saldo - item.getValor();
                     gravarArq.printf("-%.2f\t\t", item.getValor());
@@ -53,8 +53,6 @@ public class Extratos {
                     gravarArq.printf("+%.2f\t\t", item.getValor());
                 }
                 gravarArq.printf(item.getTipo() + "\t\n");
-
-
             }
             gravarArq.printf("\nSaldo: .....................................\t");
             gravarArq.printf(Double.toString(saldo));
@@ -62,11 +60,5 @@ public class Extratos {
         } catch(Exception e) {
             e.printStackTrace();
         }
-
-
-
     }
-
-
-
 }

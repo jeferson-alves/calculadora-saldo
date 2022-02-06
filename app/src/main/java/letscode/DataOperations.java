@@ -14,29 +14,20 @@ import java.util.Set;
 @ToString
 
 public class DataOperations {
-//    private OperacaoBancaria operacao;
     Map<String, ArrayList<OperacaoBancaria>> map = new HashMap<>();
-
-
-//    public void put(String chave, String valor) {
-//        map.put(chave, valor);
-//    }
-
+    
     public void put(OperacaoBancaria operacao) {
         ArrayList<OperacaoBancaria> operationsList = new ArrayList<>();
-        String idConta = operacao.getContaBancaria(); //buscar o id da conta e colocar
-
+        String idConta = operacao.getContaBancaria();
         ArrayList<OperacaoBancaria> contaOperations = map.get(idConta);
         if (contaOperations == null) {
             operationsList.add(operacao);
             map.put(idConta, operationsList);
         } else {
             operationsList = contaOperations;
-            operationsList.add(operacao);
-//            operationsList = adicionarOrdenado(contaOperations, operacao);
-            map.put(idConta, operationsList);
+            ArrayList<OperacaoBancaria> listaOrdenada = adicionarOrdenado(operationsList, operacao);
+            map.put(idConta, listaOrdenada);
         }
-//
     }
 
     public ArrayList<OperacaoBancaria> getKey(String chave) {
@@ -44,38 +35,48 @@ public class DataOperations {
     }
 
     public Set<String> keys() {
-//        System.out.println( map.keySet() );
         return map.keySet();
     }
 
-    //colocar algo para checar quando a operação é repetida
 
-//    public ArrayList<OperacaoBancaria> adicionarOrdenado(ArrayList<OperacaoBancaria> operacoesConta, OperacaoBancaria novaOperacao) {
-//        Date novaData = novaOperacao.getDataHoraOperacao();
-//        long novaDataEpoch = novaData.getTime();
-//        ArrayList<OperacaoBancaria> listaOrdenada = new ArrayList<>();
-//        boolean controle = true;
-//        int count = 0;
-//        long itemDataEpoch;
-//        Date itemData;
-//        OperacaoBancaria item;
-//        while ( count < operacoesConta.size() ) {
-//            item = operacoesConta.get(count);
-//            itemData = item.getDataHoraOperacao();
-//            itemDataEpoch = itemData.getTime();
-//            if (controle) {
-//                if (novaDataEpoch > itemDataEpoch) {
-//                    listaOrdenada.add(item);
-//                    count++;
-//                } else {
-//                    listaOrdenada.add(novaOperacao);
-//                    controle = false;
-//                }
-//            } else {
-//                listaOrdenada.add(item);
-//                count++;
-//            }
-//        }
-//        return operacoesConta;
-//    }
+    public ArrayList<OperacaoBancaria> adicionarOrdenado(ArrayList<OperacaoBancaria> operacoesConta, OperacaoBancaria novaOperacao) {
+        boolean checkEquals;
+        ArrayList<OperacaoBancaria> listaOrdenada = new ArrayList<>();
+        System.out.println("Dentro do adicionar ordenado");
+        Date novaData = novaOperacao.getDataHoraOperacao();
+        long novaDataEpoch = novaData.getTime();
+        boolean controle = true;
+        int i=0;
+        while (i < operacoesConta.size()) {
+            Date itemData = operacoesConta.get(i).getDataHoraOperacao();
+            long itemDataEpoch = itemData.getTime();
+            if (controle) {
+                if (novaDataEpoch == itemDataEpoch) {
+                    checkEquals = operacoesConta.get(i).getOperador().equals(novaOperacao.getOperador()) && operacoesConta.get(i).getTipo().equals(novaOperacao.getTipo()) && operacoesConta.get(i).getValor() == novaOperacao.getValor();
+                    if (checkEquals) {
+                        i = i+1;
+                    } else {
+                        listaOrdenada.add(novaOperacao);
+                        controle = false;
+                    }
+                }
+                if (novaDataEpoch > itemDataEpoch) {
+                    listaOrdenada.add(operacoesConta.get(i));
+                    i = i+1;
+                }
+                if (novaDataEpoch < itemDataEpoch) {
+                    listaOrdenada.add(novaOperacao);
+                    controle = false;
+                }
+            } else {
+                listaOrdenada.add(operacoesConta.get(i));
+                i = i+1;
+            }
+        }
+        if (controle) {
+            listaOrdenada.add(novaOperacao);
+        }
+        return listaOrdenada;
+    }
+
 }
