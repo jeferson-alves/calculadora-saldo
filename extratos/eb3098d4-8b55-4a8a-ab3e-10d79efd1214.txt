@@ -1,29 +1,31 @@
-Extrato de eb3098d4-8b55-4a8a-ab3e-10d79efd1214
+Banco Santander
+Agência: ... 4009
+Conta: ..... 43811754-6
 
-Data 				Valor 		Tipo 		Operador 
+Data 			Tipo 		Valor 		Operador 
 
-Sat Jul 14 12:20:27 BRT 8	-80.00		DEPOSITO	Yuri	
-Sun Jul 14 12:24:42 BRT 9	-40.00		DEPOSITO	Murilo	
-Sun Jul 14 15:24:42 BRT 9	-420.00		DEPOSITO	Bryan	
-Sun Jul 14 15:24:42 BRT 9	-20.00		DEPOSITO	Emanuel	
-Sun Jul 14 15:24:42 BRT 9	-420.00		DEPOSITO	Bryan	
-Thu Jul 14 13:55:53 BRT 12	-100.00		SAQUE		Francisco	
-Fri Jul 14 13:18:40 BRT 13	-40.00		DEPOSITO	Victor	
-Wed Jul 15 14:30:28 BRT 22	-300.00		DEPOSITO	Larissa	
-Sat Jul 14 12:43:47 BRT 25	-20.00		DEPOSITO	Débora	
-Sat Jul 14 13:43:47 BRT 25	-600.00		SAQUE		Ingrid	
-Sat Jul 14 14:43:47 BRT 25	-100.00		DEPOSITO	Bryan	
-Sat Jul 14 15:12:24 BRT 25	-360.00		SAQUE		Ezequiel	
-Mon Jul 15 11:37:07 BRT 26	-380.00		DEPOSITO	Milene	
-Mon Jul 15 14:42:37 BRT 26	-440.00		DEPOSITO	Lorenzo	
-Sat Jul 15 11:22:43 BRT 30	-400.00		DEPOSITO	Murilo	
-Sat Jul 15 11:22:43 BRT 30	-220.00		SAQUE		Catarina	
-Sat Jul 15 13:22:43 BRT 30	-280.00		DEPOSITO	Francisco	
-Sun Jul 15 14:53:20 BRT 31	-20.00		DEPOSITO	Clarissa	
-Sun Jul 15 14:53:20 BRT 31	-60.00		SAQUE		Murilo	
-Tue Jul 14 11:34:24 BRT 33	-560.00		DEPOSITO	Brenda	
-Tue Jul 14 14:34:24 BRT 33	-60.00		SAQUE		Theo	
-Thu Jul 15 11:56:11 BRT 34	-180.00		SAQUE		David	
-Thu Jul 15 13:56:11 BRT 34	-240.00		SAQUE		Antônio	
+03-01-22 12:20:27	DEPOSITO	+80.00		Yuri	
+04-01-22 12:24:42	DEPOSITO	+40.00		Murilo	
+04-01-22 15:24:42	DEPOSITO	+420.00		Bryan	
+04-01-22 15:24:42	DEPOSITO	+20.00		Emanuel	
+04-01-22 15:24:42	DEPOSITO	+420.00		Bryan	
+07-01-22 13:55:53	SAQUE		-100.00		Francisco	
+08-01-22 13:18:40	DEPOSITO	+40.00		Victor	
+17-01-22 14:30:28	DEPOSITO	+300.00		Larissa	
+20-01-22 12:43:47	DEPOSITO	+20.00		Débora	
+20-01-22 13:43:47	SAQUE		-600.00		Ingrid	
+20-01-22 14:43:47	DEPOSITO	+100.00		Bryan	
+20-01-22 15:12:24	SAQUE		-360.00		Ezequiel	
+21-01-22 11:37:07	DEPOSITO	+380.00		Milene	
+21-01-22 14:42:37	DEPOSITO	+440.00		Lorenzo	
+25-01-22 11:22:43	DEPOSITO	+400.00		Murilo	
+25-01-22 11:22:43	SAQUE		-220.00		Catarina	
+25-01-22 13:22:43	DEPOSITO	+280.00		Francisco	
+26-01-22 14:53:20	DEPOSITO	+20.00		Clarissa	
+26-01-22 14:53:20	SAQUE		-60.00		Murilo	
+28-01-22 11:34:24	DEPOSITO	+560.00		Brenda	
+28-01-22 14:34:24	SAQUE		-60.00		Theo	
+29-01-22 11:56:11	SAQUE		-180.00		David	
+29-01-22 13:56:11	SAQUE		-240.00		Antônio	
 
-Saldo: .......................	1700.0
+Saldo: ...............................	1700.0

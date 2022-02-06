@@ -47,6 +47,7 @@ public class DataOperations {
         long novaDataEpoch = novaData.getTime();
         boolean controle = true;
         int i=0;
+        System.out.println(novaOperacao);
         while (i < operacoesConta.size()) {
             Date itemData = operacoesConta.get(i).getDataHoraOperacao();
             long itemDataEpoch = itemData.getTime();

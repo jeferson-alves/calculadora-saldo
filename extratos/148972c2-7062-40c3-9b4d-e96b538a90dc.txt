@@ -1,27 +1,29 @@
-Extrato de 148972c2-7062-40c3-9b4d-e96b538a90dc
+Banco Santander
+Agência: ... 2254
+Conta: ..... 37025102-7
 
-Data 				Valor 		Tipo 		Operador 
+Data 			Tipo 		Valor 		Operador 
 
-Sat Jul 14 15:20:27 BRT 8	-360.00		DEPOSITO	Jade	
-Sun Jul 14 11:24:42 BRT 9	-20.00		DEPOSITO	Ângelo	
-Thu Jul 14 11:36:58 BRT 12	-520.00		SAQUE		Francisco	
-Thu Jul 14 13:36:58 BRT 12	-40.00		DEPOSITO	Matheus	
-Thu Jul 14 13:36:58 BRT 12	-40.00		SAQUE		Maitê	
-Thu Jul 14 14:36:58 BRT 12	-160.00		DEPOSITO	Bryan	
-Thu Jul 14 15:55:53 BRT 12	-560.00		SAQUE		Francisco	
-Thu Jul 14 15:55:53 BRT 12	-100.00		DEPOSITO	Bryan	
-Fri Jul 14 11:18:40 BRT 13	-80.00		DEPOSITO	Alexandre	
-Fri Jul 14 15:18:40 BRT 13	-40.00		SAQUE		Larissa	
-Wed Jul 15 12:30:28 BRT 22	-60.00		DEPOSITO	David	
-Wed Jul 15 13:30:28 BRT 22	-80.00		DEPOSITO	Frederico	
-Wed Jul 15 14:30:28 BRT 22	-60.00		DEPOSITO	Miguel	
-Wed Jul 15 15:30:28 BRT 22	-440.00		SAQUE		Antônio	
-Mon Jul 15 13:42:37 BRT 26	-60.00		DEPOSITO	Ezequiel	
-Mon Jul 15 15:37:07 BRT 26	-540.00		SAQUE		Flôr	
-Wed Jul 14 11:32:28 BRT 28	-200.00		SAQUE		Matheus	
-Sat Jul 15 13:22:43 BRT 30	-380.00		DEPOSITO	Eduarda	
-Sat Jul 15 15:22:43 BRT 30	-540.00		DEPOSITO	Felipe	
-Tue Jul 14 12:34:24 BRT 33	-180.00		DEPOSITO	Clarissa	
-Thu Jul 15 13:56:11 BRT 34	-220.00		SAQUE		Juliano	
+03-01-22 15:20:27	DEPOSITO	+360.00		Jade	
+04-01-22 11:24:42	DEPOSITO	+20.00		Ângelo	
+07-01-22 11:36:58	SAQUE		-520.00		Francisco	
+07-01-22 13:36:58	DEPOSITO	+40.00		Matheus	
+07-01-22 13:36:58	SAQUE		-40.00		Maitê	
+07-01-22 14:36:58	DEPOSITO	+160.00		Bryan	
+07-01-22 15:55:53	SAQUE		-560.00		Francisco	
+07-01-22 15:55:53	DEPOSITO	+100.00		Bryan	
+08-01-22 11:18:40	DEPOSITO	+80.00		Alexandre	
+08-01-22 15:18:40	SAQUE		-40.00		Larissa	
+17-01-22 12:30:28	DEPOSITO	+60.00		David	
+17-01-22 13:30:28	DEPOSITO	+80.00		Frederico	
+17-01-22 14:30:28	DEPOSITO	+60.00		Miguel	
+17-01-22 15:30:28	SAQUE		-440.00		Antônio	
+21-01-22 13:42:37	DEPOSITO	+60.00		Ezequiel	
+21-01-22 15:37:07	SAQUE		-540.00		Flôr	
+23-01-22 11:32:28	SAQUE		-200.00		Matheus	
+25-01-22 13:22:43	DEPOSITO	+380.00		Eduarda	
+25-01-22 15:22:43	DEPOSITO	+540.00		Felipe	
+28-01-22 12:34:24	DEPOSITO	+180.00		Clarissa	
+29-01-22 13:56:11	SAQUE		-220.00		Juliano	
 
-Saldo: .......................	-440.0
+Saldo: ...............................	-440.0

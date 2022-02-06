@@ -19,7 +19,8 @@ public class App {
         DataOperations dados = arquivo.openFile();
 
         Extratos extratos = new Extratos(dados);
-        extratos.fazerExtratos();
+        String pathSave = "C:\\Users\\Notebook-2\\Desktop\\projeto_estrutura_dados\\extratos";
+        extratos.fazerExtratos(pathSave);
 //        System.out.println(dados);
 
 

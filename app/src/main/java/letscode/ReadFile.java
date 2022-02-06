@@ -32,7 +32,7 @@ public class ReadFile {
                 case "csv":
                     file = new File(pathName);
                     scan = new Scanner(file);
-                    SimpleDateFormat formatterDate =new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+                    SimpleDateFormat formatterDate =new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                     line = scan.nextLine();
                     while (scan.hasNextLine()){
                         line = scan.nextLine();
